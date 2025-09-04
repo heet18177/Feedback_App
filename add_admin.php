@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !isset($_GET['id'])) {
     <div class="flex-1 flex flex-col min-h-screen">
         <!-- Header -->
         <header class="bg-white shadow-md p-4 flex items-center justify-between sticky top-0 z-30">
-            <h1 class="text-2xl font-extrabold text-gray-800">Add Admins</h1>
+            <h1 class="text-2xl font-xtrabold text-gray-800">Add Admins</h1>
             <button onclick="toggleSidebar()" class="md:hidden px-4 py-2 bg-indigo-600 text-white rounded-lg">☰</button>
         </header>
 
